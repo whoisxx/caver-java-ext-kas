@@ -47,7 +47,7 @@ import static org.junit.Assert.*;
 public class WalletAPITest {
     public static CaverExtKAS caver;
     public static KAS kas;
-    public static String baseUrl = "https://wallet-api.dev.klaytn.com";
+    public static String baseUrl = "http://wallet-api.dev.klaytn.com:8888";
 
     static String accessKey = "KASKPC4Y2BI5R9S102XZQ6HQ";
     static String secretAccessKey = "A46xEUiEP72ReGfNENktb29CUkMb6VXRV0Ovq1QO";

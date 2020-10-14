@@ -65,7 +65,7 @@ public class NodeAPITest {
         testKeyring = (SingleKeyring) caver.wallet.add(KeyringFactory.createFromPrivateKey(privateKey));
         account = testKeyring.getAddress();
 
-        caver.initNodeAPI("1001", accessKey, secretAccessKey, "https://node-api.dev.klaytn.com/v1/klaytn");
+        caver.initNodeAPI("1001", accessKey, secretAccessKey, "http://node-api.dev.klaytn.com:8888/v1/klaytn");
 
         deployContract(caver);
     }

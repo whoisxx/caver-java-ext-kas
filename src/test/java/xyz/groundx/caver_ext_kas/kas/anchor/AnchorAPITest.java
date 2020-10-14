@@ -41,7 +41,7 @@ public class AnchorAPITest {
     public ExpectedException expectedException = ExpectedException.none();
 
     static String operatorID = "0x0Ea563A80f5ea22C174030416E7fCdbeD920D5EB";
-    static String basPath = "https://anchor-api.dev.klaytn.com";
+    static String basPath = "http://anchor-api.dev.klaytn.com:8888";
     static String accessKey = "KASKPC4Y2BI5R9S102XZQ6HQ";
     static String secretAccessKey = "A46xEUiEP72ReGfNENktb29CUkMb6VXRV0Ovq1QO";
     static CaverExtKAS caver;
